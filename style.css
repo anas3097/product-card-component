@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 210, 218);
+  min-height: 100vh;  /* fills the viewport at minimum */
+}
+
+
+.preview-card-box{
+    display: flex;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+img{
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.inner-div{
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: content-box;
+}
+
+#heading{
+    letter-spacing: 1px;
+    font-size:x-small;
+    font-weight: 100;
+    color: hsl(228, 12%, 48%);
+}
+
+h1{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.para{
+    font-size: smaller;
+    color: hsl(228, 12%, 48%);
+    line-height: 14px;
+}
+
+.current-price{
+    color: hsl(158, 36%, 37%);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration: line-through;
+    font-size: x-small;
+    color:hsl(228, 12%, 48%);
+}
+
+button{
+    background-color:hsl(158, 36%, 37%) ;
+    color: white;
+    padding: 6px 35px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin-top: 13px;
+}
